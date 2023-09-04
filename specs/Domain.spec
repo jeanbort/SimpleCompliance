@@ -1,7 +1,7 @@
-SIMPLEGAGUE
+DOMAIN
 =========
 
-Tester Simple Gauge
+Tester le domain
 -----------------------------------
 
 * with all text count nb token in

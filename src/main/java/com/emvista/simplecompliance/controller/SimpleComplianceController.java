@@ -1,10 +1,10 @@
-package com.emvista.simplecompliance.spark.controller;
+package com.emvista.simplecompliance.controller;
 
 import spark.Request;
 import spark.Response;
 import spark.Route;
 
-public class SparkApiController {
+public class SimpleComplianceController {
     private static String PARAMETER_NAME = "name";
 
     public static Route mainPage = (Request request, Response response) -> {

@@ -1,6 +1,6 @@
 package com.emvista.simplecompliance;
 
-import com.emvista.simplecompliance.spark.controller.SparkApiController;
+import com.emvista.simplecompliance.controller.SimpleComplianceController;
 import com.thoughtworks.gauge.*;
 import com.thoughtworks.gauge.datastore.ScenarioDataStore;
 import io.restassured.response.Response;
@@ -10,12 +10,12 @@ import spark.Spark;
 
 import static io.restassured.RestAssured.given;
 
-public class SparkApiTest {
+public class SimpleComplianceControllerTest {
 
     @BeforeSuite
     public void beforeSuite() {
         Spark.port(4567);
-        Spark.get("/main", SparkApiController.mainPage);
+        Spark.get("/main", SimpleComplianceController.mainPage);
         Spark.init();
     }
 

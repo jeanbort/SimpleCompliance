@@ -1,10 +1,10 @@
 package com.emvista.simplecompliance;
 
-import com.emvista.simplecompliance.spark.domain.Token;
+import com.emvista.simplecompliance.domain.Token;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class SimpleGaugeTest {
+public class DomainTest {
 
     @Test
     void nbTokenTest() {

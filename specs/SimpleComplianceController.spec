@@ -1,13 +1,13 @@
-SPARKAPI
+SIMPLE COMPALIANCE CONTROLLER
 =========
 
-Tester Spark api
+Tester le controleur
 -----------------------------------
 
 * get main spark "ENDPOINT_MAIN"
 * then the status of "ENDPOINT_MAIN" equals "200"
 
-Tester Spark api with parameter
+Tester le controleur avec un parametre
 -----------------------------------
 
 * get main spark "ENDPOINT_MAIN" with parameter in

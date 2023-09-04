@@ -1,13 +1,13 @@
 package com.emvista.simplecompliance;
 
-import com.emvista.simplecompliance.spark.domain.Token;
+import com.emvista.simplecompliance.domain.Token;
 import com.thoughtworks.gauge.Step;
 import com.thoughtworks.gauge.Table;
 import com.thoughtworks.gauge.TableRow;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class SimpleGaugeSpec {
+public class DomainTestWithGauge {
     @Step("with all text count nb token in <table>")
     public void nbTokenTest(Table table) {
         Token simpleGauge = new Token();

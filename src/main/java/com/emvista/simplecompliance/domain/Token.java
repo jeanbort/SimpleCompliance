@@ -1,4 +1,4 @@
-package com.emvista.simplecompliance.spark.domain;
+package com.emvista.simplecompliance.domain;
 
 public class Token {
 
