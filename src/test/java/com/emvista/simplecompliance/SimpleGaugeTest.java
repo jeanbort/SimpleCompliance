@@ -1,5 +1,6 @@
-package com.emvista.simplegauge;
+package com.emvista.simplecompliance;
 
+import com.emvista.simplecompliance.spark.domain.Token;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -7,7 +8,7 @@ public class SimpleGaugeTest {
 
     @Test
     void nbTokenTest() {
-        SimpleGauge simpleGauge = new SimpleGauge();
+        Token simpleGauge = new Token();
 
         Assertions.assertEquals(0, simpleGauge.nbToken(""));
         Assertions.assertEquals(0, simpleGauge.nbToken(null));

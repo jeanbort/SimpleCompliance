@@ -1,4 +1,6 @@
-import com.emvista.simplegauge.spark.controller.SparkApiController;
+package com.emvista.simplecompliance;
+
+import com.emvista.simplecompliance.spark.controller.SparkApiController;
 import com.thoughtworks.gauge.*;
 import com.thoughtworks.gauge.datastore.ScenarioDataStore;
 import io.restassured.response.Response;

@@ -1,6 +1,6 @@
-package com.emvista.simplegauge;
+package com.emvista.simplecompliance.spark.domain;
 
-public class SimpleGauge {
+public class Token {
 
     public int nbToken(String text) {
         if (text == null || text.isEmpty())

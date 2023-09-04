@@ -1,11 +1,8 @@
-package com.emvista.simplegauge.spark.controller;
+package com.emvista.simplecompliance.spark.controller;
 
 import spark.Request;
 import spark.Response;
 import spark.Route;
-
-import java.util.HashMap;
-import java.util.Map;
 
 public class SparkApiController {
     private static String PARAMETER_NAME = "name";
