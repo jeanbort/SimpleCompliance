@@ -24,13 +24,13 @@ public class SimpleComplianceControllerTest {
         Spark.stop();
     }
 
-    @Step("get main spark <apiendpoint>")
+    @Step("get main endpoint <apiendpoint>")
     public void callController(String apiendpoint) {
         Response response = given().get(System.getenv(apiendpoint));
         ScenarioDataStore.put(apiendpoint, response);
     }
 
-    @Step("get main spark <apiendpoint> with parameter in <table>")
+    @Step("get main endpoint <apiendpoint> with parameter in <table>")
     public void callControllerWithParameter(String apiendpoint, Table table) {
         Response response = given().get(System.getenv(apiendpoint) + "?name=" + table.getColumnValues("parameter").get(0));
         ScenarioDataStore.put(apiendpoint, response);

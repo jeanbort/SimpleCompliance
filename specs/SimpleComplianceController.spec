@@ -4,13 +4,13 @@ SIMPLE COMPALIANCE CONTROLLER
 Tester le controleur
 -----------------------------------
 
-* get main spark "ENDPOINT_MAIN"
+* get main endpoint "ENDPOINT_MAIN"
 * then the status of "ENDPOINT_MAIN" equals "200"
 
 Tester le controleur avec un parametre
 -----------------------------------
 
-* get main spark "ENDPOINT_MAIN" with parameter in
+* get main endpoint "ENDPOINT_MAIN" with parameter in
     |parameter           |
     |---------------|
     |Jean           |
