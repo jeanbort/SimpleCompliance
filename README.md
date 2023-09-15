@@ -11,3 +11,4 @@ Projet Java très simple mettant en oeuvre Spark, Gauge et Rest-Assured.
 * [Spark](https://sparkjava.com/)
 * [Gauge](https://gauge.org/)
 * [Rest-Assured](https://rest-assured.io/)
+* [MockServer](https://www.mock-server.com/)
